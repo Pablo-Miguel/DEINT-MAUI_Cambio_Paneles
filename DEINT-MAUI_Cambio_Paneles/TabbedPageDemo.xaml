@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DEINT_MAUI_Cambio_Paneles.TabbedPageDemo"
+             Title="TabbedPageDemo"
+             SelectedTabColor="White"
+             UnselectedTabColor="Green">
+
+    <ContentPage Title="Opcion1" IconImageSource="dotnet_bot.png">
+        <Label Text="Hola mundo desde la Opcion1" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Opcion2" IconImageSource="dotnet_bot.png">
+        <Label Text="Hola mundo desde la Opcion2" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+    </ContentPage>
+    <ContentPage Title="Opcion3" IconImageSource="dotnet_bot.png">
+        <Label Text="Hola mundo desde la Opcion3" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+    </ContentPage>
+
+</TabbedPage>
